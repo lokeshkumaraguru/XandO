@@ -40,7 +40,8 @@ int main()
     {
       cout<<"Values must be between 0 and 2.\n";
     }
-
+    else
+    {
       if(turn == X)
       {
         board[row][column] = X;
@@ -51,7 +52,7 @@ int main()
         board[row][column] = O;
         turn = X;
       }
-
+    }
     //TODO: Place the piece and swap turns
     //Outline
     //1. When neither of the (above) if nor else if statements are true, then...
